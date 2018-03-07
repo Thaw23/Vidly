@@ -296,6 +296,10 @@
     <Compile Include="Migrations\201802070441209_AddNumberAvailableToMovie.Designer.cs">
       <DependentUpon>201802070441209_AddNumberAvailableToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803071501126_AddPhoneToRegister.cs" />
+    <Compile Include="Migrations\201803071501126_AddPhoneToRegister.Designer.cs">
+      <DependentUpon>201803071501126_AddPhoneToRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -636,6 +640,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802070441209_AddNumberAvailableToMovie.resx">
       <DependentUpon>201802070441209_AddNumberAvailableToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803071501126_AddPhoneToRegister.resx">
+      <DependentUpon>201803071501126_AddPhoneToRegister.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
