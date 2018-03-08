@@ -197,3 +197,8 @@ C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.Core
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToRegister.resources
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.Mvc5.dll
