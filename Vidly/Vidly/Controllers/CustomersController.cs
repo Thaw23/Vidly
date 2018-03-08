@@ -72,6 +72,7 @@ namespace Vidley.Controllers
             //var customers = _context.Customers.Include(c=> c.MembershipType).ToList();
             // without ToList() the query will execute when the customers var is iterated in View. 
             // ToList will execute the query immediately. 
+            if(MemoryCache)
             return View();// (customers);
         }
         /* nolonger needed since the data are queried form db 
