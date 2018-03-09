@@ -202,3 +202,6 @@ C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.AspNet.dll
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.Core.dll
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Toast.exe
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\Toaster.dll
+C:\Users\ThawThaw\Documents\GitHub\Vidly\Vidly\Vidly\bin\ToolBelt.dll
