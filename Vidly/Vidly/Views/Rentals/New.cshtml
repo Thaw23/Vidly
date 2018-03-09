@@ -82,16 +82,28 @@
 
                     vm.movieIds.push(movie.id);
                 });
-
             $.validator.addMethod("validCustomer", function () {
-                return vm.customerId && vm.customerId !== 0;
-            }, "Please select a valid customer.");
+                return vm.customerId && vm.customerId !== 0; 
 
-            $.validator.addMethod("atLeastOneMovie", function () {
-                return vm.movieIds.length > 0;
-            }, "Please select at least one movie.");
-
-            var validator = $("#newRental").validate({
+            }, "Please select a valid customer");
+            $("#newRental").validate({
+                submitHandler: function () {
+                    e.preventDefault();
+                    $.ajax({
+                        url: '/api/newRentals',
+                        method: "post",
+                        data: vm
+                    })
+                        .done(function () {
+                            toastr.success("Rentals Successfully Recorded");
+                        })
+                        .fail(function () {
+                            toastr.error("Something unexpected happened");
+                        });
+                }
+            }); 
+            
+            /*var validator = $("#newRental").validate({
                 submitHandler: function () {
                     $.ajax({
                         url: "/api/newRentals",
@@ -115,7 +127,7 @@
 
                     return false;
                 }
-            });
+            });*/
         });
     </script>
 }
